@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Prepayment Privilege Calculator Test Suite">
+
+<listeners>
+      <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+      <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+
+  
+    <test name="GmailLogin">
+    <classes>
+      <class name="testMethods.TestMethod"/>
+    </classes>
+  </test>
+
+</suite>
